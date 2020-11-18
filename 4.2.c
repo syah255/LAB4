@@ -6,6 +6,7 @@ int main(int argc , char *argv[])
 {
 	int socket_desc , new_socket , c;
 	struct sockaddr_in server , client;
+
 	
 	//Create socket
 	socket_desc = socket(AF_INET , SOCK_STREAM , 0);
